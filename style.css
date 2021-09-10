@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background:rgb(78, 87, 99);
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* position:absolute;
+    top: 1%;
+    left: 5%; */
+}
+div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 3px;
+}
+#red{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: 2px solid white;
+}
+#black{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 2px solid white;
+}
+#green{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border: 2px solid white;
+}
+#blue{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border: 2px solid white;
+}
+#yellow{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border: 2px solid white;
+}
+#red:hover,
+#blue:hover,
+#black:hover,
+#yellow:hover,
+#green:hover{
+    box-shadow: 1px 1px 15px black;
+}
+#clear{
+    background-color: red;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 1px 1px 35px red;
+    border-radius: 2px;
+    display: flex;
+    font-size: 1.3rem;
+    width: 100px;
+    height: 35px;
+    border: transparent;
+    position:absolute;
+    top: 2px;
+    right: 10%;
+}
+#clear:hover{
+    background-color: white;
+    border-radius: 2px;
+    border: transparent;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}

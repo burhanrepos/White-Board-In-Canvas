@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="canvas" width="1507"
+    height="550"></canvas>
+    <div id="button">
+        <button id="red" onclick="checkColor(this.id)"></button>
+        <button id="blue" onclick="checkColor(this.id)"></button>
+        <button id="green" onclick="checkColor(this.id)"></button>
+        <button id="yellow" onclick="checkColor(this.id)"></button>
+        <button id="black" onclick="checkColor(this.id)"></button>
+        <button id="clear" onclick="clearBoard()">CLEAR</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
